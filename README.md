@@ -3,29 +3,56 @@ A repo for the many beautiful spreadsheets created over the course of work with 
 
 ## Reference spreadsheets (these contain timeless information that could still be useful)
 
-### 
+### CantusDB catalogue
+https://docs.google.com/spreadsheets/d/17Nbc39AeAA12oF2Hk0G7wMaUYArXfsT_rEmnyoAcCeo/edit?gid=1855664281#gid=1855664281
+
+A catalogue of all indexed sources on CantusDB (as of Summer 2026), made by Gen. Information for each manuscript includes CantusDB link, whether the source has images/text/volpiano on CantusDB, how many folios/pages/chants the source has, info on the script and/or notation style, provenance, and date.
 
 ## Record-keeping spreadsheets - manuscript correction
 
-### [MS073 - Jiali's magical spreadsheet 2.0](https://docs.google.com/spreadsheets/d/1wQcaxQh09q6TxPqFtbhse3KwAd-W6vZBmxo103B13-k/edit?gid=0#gid=0)
+### MS073 - Jiali's magical spreadsheet 2.0
+https://docs.google.com/spreadsheets/d/1wQcaxQh09q6TxPqFtbhse3KwAd-W6vZBmxo103B13-k/edit?gid=0#gid=0
 
 This spreadsheet contains the record of the omr-ization and correction the MS73 manuscript in... 2024? It includes information about the different hands found in the manuscript, who corrected the folios, when, and how long it took. The spreadsheet was originally created by Jiali, but Gen (GGP) and Kyrie (KB) were the main contributors.
 
-### [Another magical spreadsheet](https://docs.google.com/spreadsheets/d/1JjNyhZvEtv-3U5kgqcnsE0mCwHs8A-Px12CYYNLPsVw/edit?gid=0#gid=0)
+### Another magical spreadsheet
+https://docs.google.com/spreadsheets/d/1JjNyhZvEtv-3U5kgqcnsE0mCwHs8A-Px12CYYNLPsVw/edit?gid=0#gid=0
 
 This spreadsheet contains the record of the omr-ization and correction of the Einsiedeln antiphoner (CH-E 611) in starting in 2022-23. It includes information about who corrected what, how long it took, and various problems we ran into. Gen, Ai Lynn, Zi Hang, Phoebe from Halifax, and Nicholas and Henry from Leuven worked on the initial correction, supervised by Gen. In 2024, when files were not all yet reviewed, we found a problem with C clef octaves, which led to us making various corrections to various files. A record of this is included in the spreadsheet as well.
 
-### [Correcting stemmed notes in Salzinnes](https://docs.google.com/spreadsheets/d/1xfvc_T8lwRuT0DGmDc0rrJvj0545Bla9Z1ytVVZpZYw/edit?pli=1&gid=0#gid=0)
+### Correcting stemmed notes in Salzinnes
+https://docs.google.com/spreadsheets/d/1xfvc_T8lwRuT0DGmDc0rrJvj0545Bla9Z1ytVVZpZYw/edit?pli=1&gid=0#gid=0
 
 When we first corrected Salzinnes, we made everything into puncta, because that's what we taught the IC to classify (thanks to the handy-dandy diagonal neume slicer). However, some time later, someone (I think Anna) pointed out that actually quite a few of these neumes had visible stems and were therefore virgas. We went back over all the corrected mei files to add stems where necessary and kept track of our work in this spreadsheet.
 
-### [Gen's magical spreadsheet](https://docs.google.com/spreadsheets/d/1DmNAhP2MoIwyNP6EgA-YJr6xC03_V895tokWRCTMMu0/edit?gid=0#gid=0) the OG!
+### Gen's magical spreadsheet (the OG!)
+https://docs.google.com/spreadsheets/d/1DmNAhP2MoIwyNP6EgA-YJr6xC03_V895tokWRCTMMu0/edit?gid=0#gid=0 
 
 This spreadsheet contains the record of the omr-ization and correction of the Salzinnes antiphoner (CDN-Hsmu M2149.L4 1554) in 2021 and 2022 (I think). It includes who corrected what and correction time. Gen, Yinan, Jiali and Andy worked on the initial correction, guided by Anna. Changes then happened within Rodan and Neon that made some elements of the Salzinnes mei files obsolete or incorrect; Gen came back in 2024 to finish reviewing files and make the necessary corrections.
 
 ## Record-keeping spreadsheets - others
 
-### [UMIL Master Spreadsheet](https://docs.google.com/spreadsheets/d/1KTTa9WqfmU8narIXexLqXTYSl8MtkZfe/edit?pli=1&gid=42692703#gid=42692703)
+### Mothra Bonanza (the big one)
+https://docs.google.com/spreadsheets/d/1K_5yCKC0514RhpI1Lw0fEmRgGbwWakga1OaEQ3wt0qQ/edit?gid=0#gid=0
+
+This spreadsheet contains records of various ground truth production and training runs performed in 2026 to get Mothra up and running. Everything was done by Gen unless otherwise specified.
+
+**First round of corrections**: Folios with layers detected by the very first YOLO phase 1 detection model were sent to Gen for evaluation and correction. The corrected files were then used to improve the YOLO model.
+
+**Additional staff layers**: At various points in time, more staff line ground truth was requested. Some was for a YOLO layer detection model, and some was for a Paco layer extraction model; this is made clear in the spreadsheet.
+
+**YOLO neume splitting GT**: The initial YOLO phase 1 model didn't split neumes sufficiently for the IC to work efficiently. This ground truth was created in August 2026 to try to make a second YOLO model to split the neumes as we want. The sheet lists the folios used.
+
+**Additional neume layers**: In August 2026, more neume detection ground truth was created to try to improve the YOLO phase 1 model. The sheet lists the folios used.
+
+**Pixel vs. Mothra showdown**: This sheet describes tests performed early on to determine whether the new YOLO detection model could separate layers better than Rodan.
+
+**Method B annotations**: This sheet was created by Cassie, I think.
+
+**
+
+### UMIL Master Spreadsheet
+https://docs.google.com/spreadsheets/d/1KTTa9WqfmU8narIXexLqXTYSl8MtkZfe/edit?pli=1&gid=42692703#gid=42692703
 
 2025 was the UMIL year. Gen, with the help of Caroline and Pouya, looked for new translations of instruments on UMIL, as well as new instruments to add to UMIL, and kept track of their efforts here.
 
@@ -51,27 +78,32 @@ This spreadsheet contains the record of the omr-ization and correction of the Sa
 
 **Global Jukebox instruments**: As described in the sheet: Instruments Gen found on Global Jukebox at the beginning of her search when she was doing a less good job.
 
-### [Keeping track of Bach shenanigans](https://docs.google.com/spreadsheets/d/1Alns0hyCL_JCoCRI_J1aOxck8rw2YudANK5ejoF_Pgg/edit?gid=0#gid=0)
+### Keeping track of Bach shenanigans
+https://docs.google.com/spreadsheets/d/1Alns0hyCL_JCoCRI_J1aOxck8rw2YudANK5ejoF_Pgg/edit?gid=0#gid=0
 
 In 2023-2024(?) Gen (GGP) and Kyrie (KEB) tried really really hard to teach Rodan to read Bach manuscript pages and extract the clefs. They kept a record of their highs and lows in this spreadsheet.
 
-**Sheet 1: Layer separation**: Record of efforts deployed to produce a layer separation model in Rodan that worked across multiple Bach manuscripts. (Spoiler alert, this failed.)
+**Layer separation**: Record of efforts deployed to produce a layer separation model in Rodan that worked across multiple Bach manuscripts. (Spoiler alert, this failed.)
 
-**Sheet 2: NEW PLAN!**: A decision was made to make a separate layer separation model for each manuscript. The Bach projet ended soon after, which is why there's little info in here.
+**NEW PLAN!**: A decision was made to make a separate layer separation model for each manuscript. The Bach projet ended soon after, which is why there's little info in here.
 
-**Sheet3: IC nonsense**: Gen started trying to teach the IC to recognize clefs. The Bach projet ended soon after, which is why there's little info in here.
+**IC nonsense**: Gen started trying to teach the IC to recognize clefs. The Bach projet ended soon after, which is why there's little info in here.
 
 ### CantusDB Volpiano discrepancies
-[Salzinnes](https://docs.google.com/spreadsheets/d/133lVOVM15l7a6bQKIQije4op363ragG4OXewYop_cbQ/edit?pli=1&gid=0#gid=0)
+Salzinnes 
+https://docs.google.com/spreadsheets/d/133lVOVM15l7a6bQKIQije4op363ragG4OXewYop_cbQ/edit?pli=1&gid=0#gid=0
 
-[Einsiedeln](https://docs.google.com/spreadsheets/d/133lVOVM15l7a6bQKIQije4op363ragG4OXewYop_cbQ/edit?pli=1&gid=0#gid=0)
+Einsiedeln
+https://docs.google.com/spreadsheets/d/133lVOVM15l7a6bQKIQije4op363ragG4OXewYop_cbQ/edit?pli=1&gid=0#gid=0
 
 When correction for Salzinnes and Einsiedeln was underway, we noticed that the syllabification logic of CantusDB wasn't always syllabifying words properly. Gen started checking every folio agains the CantusDB manuscript text, and kept track of all mis-syllabified words in these spreadsheets. She also logged the typos she occasionally found. She was later given Debra status and started making the corrections. Later, Dylan implemented a new and improved syllabification logic that fixed everything, so Gen stopped making her manual corrections. IMPORTANT: I (Gen) think that there's still a problem with Saved Syllabified Text interfering with Dylan's syllabification revamp. Link issue.
 
-### [Cantus ultimus testing](https://docs.google.com/spreadsheets/d/1bNaDkkweEpffpzSH2GkyIN5P_xWNaBqZ/edit?gid=1700575581#gid=1700575581)
+### Cantus ultimus testing
+https://docs.google.com/spreadsheets/d/1bNaDkkweEpffpzSH2GkyIN5P_xWNaBqZ/edit?gid=1700575581#gid=1700575581
 
 Some time in 2021 or 2022, Gen tested manuscript mapping onto Cantus Ultimus for Nestor. She kept track of her results in this spreadsheet, but did not indicate what the various colours mean. So who knows what went on.
 
-### [Great IIIF hung](https://docs.google.com/spreadsheets/d/1OuyW0aJeoUBFH8yKstv58mekZpUdGQAwmrK6Xbp9xLw/edit?pli=1&gid=2036067854#gid=2036067854)
+### Great IIIF hunt
+https://docs.google.com/spreadsheets/d/1OuyW0aJeoUBFH8yKstv58mekZpUdGQAwmrK6Xbp9xLw/edit?pli=1&gid=2036067854#gid=2036067854
 
 Some time in 2021 or 2022, someone (Alessandra or Nestor are best guesses) asked Gen to make a record of which manuscripts on CantusDB have a IIIF manifest and to try and find some for those that didn't. Colours are explained in this one! But no idea if these results were used for anything.
