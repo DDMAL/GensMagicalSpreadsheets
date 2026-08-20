@@ -25,12 +25,33 @@ This spreadsheet contains the record of the omr-ization and correction of the Sa
 
 ## Record-keeping spreadsheets - others
 
+### [Keeping track of Bach shenanigans](https://docs.google.com/spreadsheets/d/1Alns0hyCL_JCoCRI_J1aOxck8rw2YudANK5ejoF_Pgg/edit?gid=0#gid=0)
+
+In 2023-2024(?) Gen (GGP) and Kyrie (KEB) tried really really hard to teach Rodan to read Bach manuscript pages and extract the clefs. They kept a record of their highs and lows in this spreadsheet.
+
+#### Sheet 1: Layer separation
+
+Record of efforts deployed to produce a layer separation model in Rodan that worked across multiple Bach manuscripts. (Spoiler alert, this failed.)
+
+#### Sheet 2: NEW PLAN! 
+
+A decision was made to make a separate layer separation model for each manuscript. The Bach projet ended soon after, which is why there's little info in here.
+
+#### Sheet3: IC nonsense
+
+Gen started trying to teach the IC to recognize clefs. The Bach projet ended soon after, which is why there's little info in here.
+
 ### CantusDB Volpiano discrepancies
 [Salzinnes](https://docs.google.com/spreadsheets/d/133lVOVM15l7a6bQKIQije4op363ragG4OXewYop_cbQ/edit?pli=1&gid=0#gid=0)
+
 [Einsiedeln](https://docs.google.com/spreadsheets/d/133lVOVM15l7a6bQKIQije4op363ragG4OXewYop_cbQ/edit?pli=1&gid=0#gid=0)
 
 When correction for Salzinnes and Einsiedeln was underway, we noticed that the syllabification logic of CantusDB wasn't always syllabifying words properly. Gen started checking every folio agains the CantusDB manuscript text, and kept track of all mis-syllabified words in these spreadsheets. She also logged the typos she occasionally found. She was later given Debra status and started making the corrections. Later, Dylan implemented a new and improved syllabification logic that fixed everything, so Gen stopped making her manual corrections. IMPORTANT: I (Gen) think that there's still a problem with Saved Syllabified Text interfering with Dylan's syllabification revamp. Link issue.
 
 ### [Cantus ultimus testing](https://docs.google.com/spreadsheets/d/1bNaDkkweEpffpzSH2GkyIN5P_xWNaBqZ/edit?gid=1700575581#gid=1700575581)
 
-Some time in 2021 or 2022, Gen tested manuscript mapping onto Cantus Ultimus for Nestor. She kept track of her results in this spreadsheet, but did not indicate what the various colours mean. So who know what went on.
+Some time in 2021 or 2022, Gen tested manuscript mapping onto Cantus Ultimus for Nestor. She kept track of her results in this spreadsheet, but did not indicate what the various colours mean. So who knows what went on.
+
+### [Great IIIF hung](https://docs.google.com/spreadsheets/d/1OuyW0aJeoUBFH8yKstv58mekZpUdGQAwmrK6Xbp9xLw/edit?pli=1&gid=2036067854#gid=2036067854)
+
+Some time in 2021 or 2022, someone (Alessandra or Nestor are best guesses) asked Gen to make a record of which manuscripts on CantusDB have a IIIF manifest and to try and find some for those that didn't. Colours are explained in this one! But no idea if these results were used for anything.
