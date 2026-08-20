@@ -1,4 +1,4 @@
-# GensMagicalSpreadsheets
+# Gen's Magical Spreadsheets
 A repo for the many beautiful spreadsheets created over the course of work with DDMAL! Most were created by Gen, to keep track of her various activities, but many have added and contributed to them. When adding more spreadsheets, please make sure to indicate who contributed and when (if known), as well as a description of what the spreadsheet contains (and each sheet, where applicable).
 
 ## Reference spreadsheets (these contain timeless information that could still be useful)
