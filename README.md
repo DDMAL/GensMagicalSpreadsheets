@@ -25,21 +25,41 @@ This spreadsheet contains the record of the omr-ization and correction of the Sa
 
 ## Record-keeping spreadsheets - others
 
+### [UMIL Master Spreadsheet](https://docs.google.com/spreadsheets/d/1KTTa9WqfmU8narIXexLqXTYSl8MtkZfe/edit?pli=1&gid=42692703#gid=42692703)
+
+2025 was the UMIL year. Gen, with the help of Caroline and Pouya, looked for new translations of instruments on UMIL, as well as new instruments to add to UMIL, and kept track of their efforts here.
+
+**Welcome page**: Explains what the spreadsheet is about, details contribution guidelines
+
+**Instruments we want to add**: The very long list of instruments Gen and Caroline found that could be added to UMIL. Some were eventually added, most were not (this is made clear with the colours).
+
+**Rejected entries**: A list of all the instruments that we came across and decided not to add to UMIL, and why.
+
+**Wikidata preselection list**: Instruments already on Wikidata, but not on UMIL, that we wanted to fast-track to UMIL.
+
+**Problematic existing entries**: Instruments already on UMIL that we wanted to remove or correct (reasons included).
+
+**Electrophones**: Where Caroline put electrophones she didn't know what to do with yet.
+
+**Instruments no French**: All the instruments on UMIL that didn't have a French label as of 17.07.25. Gen made the initial list and then Caroline spent more time on it and made it much better; their various discussions are included in the comments. Most labels have been added.
+
+**Instruments no German**: All the instruments on UMIL that didn't have a German label as of 12.01.26. Some labels have been added.
+
+**Instruments no English**: All the instruments on UMIL that didn't have an English label as of 23.07.25. Finding translations for these turned out to be very difficult, so most labels were not added.
+
+**Missed Iranian instruments**: A list of Iranian instruments not yet on UMIL, made by Pouya. 
+
+**Global Jukebox instruments**: As described in the sheet: Instruments Gen found on Global Jukebox at the beginning of her search when she was doing a less good job.
+
 ### [Keeping track of Bach shenanigans](https://docs.google.com/spreadsheets/d/1Alns0hyCL_JCoCRI_J1aOxck8rw2YudANK5ejoF_Pgg/edit?gid=0#gid=0)
 
 In 2023-2024(?) Gen (GGP) and Kyrie (KEB) tried really really hard to teach Rodan to read Bach manuscript pages and extract the clefs. They kept a record of their highs and lows in this spreadsheet.
 
-#### Sheet 1: Layer separation
+**Sheet 1: Layer separation**: Record of efforts deployed to produce a layer separation model in Rodan that worked across multiple Bach manuscripts. (Spoiler alert, this failed.)
 
-Record of efforts deployed to produce a layer separation model in Rodan that worked across multiple Bach manuscripts. (Spoiler alert, this failed.)
+**Sheet 2: NEW PLAN!**: A decision was made to make a separate layer separation model for each manuscript. The Bach projet ended soon after, which is why there's little info in here.
 
-#### Sheet 2: NEW PLAN! 
-
-A decision was made to make a separate layer separation model for each manuscript. The Bach projet ended soon after, which is why there's little info in here.
-
-#### Sheet3: IC nonsense
-
-Gen started trying to teach the IC to recognize clefs. The Bach projet ended soon after, which is why there's little info in here.
+**Sheet3: IC nonsense**: Gen started trying to teach the IC to recognize clefs. The Bach projet ended soon after, which is why there's little info in here.
 
 ### CantusDB Volpiano discrepancies
 [Salzinnes](https://docs.google.com/spreadsheets/d/133lVOVM15l7a6bQKIQije4op363ragG4OXewYop_cbQ/edit?pli=1&gid=0#gid=0)
