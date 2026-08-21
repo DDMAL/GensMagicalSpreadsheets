@@ -72,7 +72,7 @@ This spreadsheet contains records of various ground truth production and trainin
 
 **Kraken line seg training**: This sheet describes Gen's (fruitless) efforts to train Kraken to recognize and segment two-column manuscripts properly. Cassie eventually found a better solution.
 
-**CATDOES manuscripts**: Made by Cassie to keep track of which manuscripts we're planning to run through CATDOES (I think!).
+**CATDOES manuscripts**: Made by Cassie to keep track of which manuscripts we're planning to run through CATDOES.
 
 ### Output evaluations
 https://docs.google.com/spreadsheets/d/1RxQUY4KNclOdGByYcqv1Iekw7na8bgdlSFulXluMcag/edit?gid=379490544#gid=379490544
@@ -87,7 +87,7 @@ A record of the various tests and evaluations Gen performed during Mothra creati
 
 **Mothra first round results**: Describing the result of running Phase 1 YOLO layer detection on various folios for the first time. This was before the lab decided to use Paco to detect staff lines.
 
-**Masking tests**: Cassie made this one I think...
+**Masking tests**: Made by Cassie to document which folios were used to test mothra-text output across corrected, uncorrected, and no-masking conditions.
 
 ### UMIL Master Spreadsheet
 https://docs.google.com/spreadsheets/d/1KTTa9WqfmU8narIXexLqXTYSl8MtkZfe/edit?pli=1&gid=42692703#gid=42692703
