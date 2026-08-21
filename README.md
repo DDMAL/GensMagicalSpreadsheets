@@ -1,7 +1,15 @@
 # Gen's Magical Spreadsheets
 A repo for the many beautiful spreadsheets created over the course of work with DDMAL! Most were created by Gen, to keep track of her various activities, but many have added and contributed to them. When adding more spreadsheets, please make sure to indicate who contributed and when (if known), as well as a description of what the spreadsheet contains (and each sheet, where applicable).
 
+This is the full list of spreadsheets. Clicking on a spreadsheet name brings you to its description in this README, and from there to the spreadsheet itself.
+
+
 ## Reference spreadsheets (these contain timeless information that could still be useful)
+
+### Neume notation examples
+https://docs.google.com/spreadsheets/d/11Hfw4gD4au10WkWjswVRbE1t02NCWA3mBemxQ8zm7s0/edit?gid=0#gid=0
+
+Images of the most common neume shapes in both Hufnagel (sheet 1) and square (sheet 2) notations. Can be useful to understand what each neume name means and how to recognize them!
 
 ### CantusDB catalogue
 https://docs.google.com/spreadsheets/d/17Nbc39AeAA12oF2Hk0G7wMaUYArXfsT_rEmnyoAcCeo/edit?gid=1855664281#gid=1855664281
@@ -49,7 +57,24 @@ This spreadsheet contains records of various ground truth production and trainin
 
 **Method B annotations**: This sheet was created by Cassie, I think.
 
-**
+**Kraken line seg training**: This sheet describes Gen's (fruitless) efforts to train Kraken to recognize and segment two-column manuscripts properly. Cassie eventually found a better solution.
+
+**CATDOES manuscripts**: Made by Cassie to keep track of which manuscripts we're planning to run through CATDOES (I think!).
+
+### Output evaluations
+https://docs.google.com/spreadsheets/d/1RxQUY4KNclOdGByYcqv1Iekw7na8bgdlSFulXluMcag/edit?gid=379490544#gid=379490544
+
+A record of the various tests and evaluations Gen performed during Mothra creation and training times (summer 2026).
+
+**Paco staff detection**: Determining which MS73 layer separation model, Betty or Eliza, worked best on various other manuscripts (answer: neither).
+
+**Baseline detection**: Determining which line segmentation model (htrflow-rtmdet-lines, htrflow-yolov9, or kraken) worked best on the widest range of manuscripts (answer: kraken). It was suggested that this could be an interesting article, so info includes numbers and stats showing which model did best for each folio.
+
+**Mothra vs. standalone text comparison**: For a little while, the text detection workflow in mothra was producing different results from the standalone text workflow. This sheet details Gen's attempts to figure out exactly where the differences lay, and which did better.
+
+**Mothra first round results**: Describing the result of running Phase 1 YOLO layer detection on various folios for the first time. This was before the lab decided to use Paco to detect staff lines.
+
+**Masking tests**: Cassie made this one I think...
 
 ### UMIL Master Spreadsheet
 https://docs.google.com/spreadsheets/d/1KTTa9WqfmU8narIXexLqXTYSl8MtkZfe/edit?pli=1&gid=42692703#gid=42692703
